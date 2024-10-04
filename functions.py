@@ -73,7 +73,7 @@ def countsInRange(vec, bins, normalizationCriteria = 'none'):
         bin0 = bins[i-1]
         binf = bins[i]
             
-        # chech in which interval falls the current value
+        # check in which interval falls the current value
         for v in vec:
             if (v >= bin0):
                 if (v < binf):
